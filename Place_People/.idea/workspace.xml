@@ -1,7 +1,310 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5eb0bf9-fcf4-45cf-a473-358c13f9ddb7" name="Default" comment="" />
+    <list default="true" id="d5eb0bf9-fcf4-45cf-a473-358c13f9ddb7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Place&gt;People.xcodeproj/project.xcworkspace/xcuserdata/yiru.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/arrow.imageset/arrow.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/backButton.imageset/backButton.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/battery.imageset/battery.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/blackCircle.imageset/blackCircle.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/blackSquare.imageset/blackSquare.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/blackTip.imageset/blackTip.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/blackTriangle.imageset/blackTriangle.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/chooseOnMap.imageset/chooseOnMap.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/circle.imageset/circle.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/destinationMarker.imageset/destinationMarker.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/destionationEdit.imageset/destionationEdit.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/dialler.imageset/dialler.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/driving.imageset/driving.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/jetpack.imageset/jetpack.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/locateMe.imageset/locateMe.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/myLocation.imageset/myLocation.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/ninja.imageset/ninja.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/origin.imageset/origin.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/phone.imageset/phone.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/pitchBlackSquare.imageset/pitchBlackSquare.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/pitchBlackTip.imageset/pitchBlackTip.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/pitchBlackTriangle.imageset/pitchBlackTriangle.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/pitchPink.imageset/pitchPink.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/place.imageset/place.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/play.imageset/play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/play.imageset/play@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/purpleArrow.imageset/purpleArrow.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/radiation.imageset/radiation.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/reFocus.imageset/reFocus.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/recentlyVisited.imageset/recentlyVisited.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/rightArrow.imageset/rightArrow.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/savedPlace.imageset/savedPlace.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/scooter.imageset/scooter.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/searchResult.imageset/searchResult.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/square.imageset/square.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/stop.imageset/stop.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/stopOrEnd.imageset/stopOrEnd.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/triangle.imageset/triangle.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/walk.imageset/walk.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Place&gt;People.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Place&gt;People.xcodeproj/project.xcworkspace/xcuserdata/yiru.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Place&gt;People.xcworkspace/contents.xcworkspacedata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Place&gt;People/Place&gt;People.entitlements" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/AFError.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Alamofire.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/MultipartFormData.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/NetworkReachabilityManager.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Notifications.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ParameterEncoding.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Request.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Response.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ResponseSerialization.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Result.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ServerTrustPolicy.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/SessionDelegate.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/SessionManager.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/TaskDelegate.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Timeline.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Validation.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/GzipSwift-beta/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/GzipSwift-beta/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/GzipSwift-beta/Sources/Data+Gzip.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTActionService.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTActivityManager.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTDelegate.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTDeviceInfoService.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTDeviceSensorsDataHelper.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTEventsDatabase.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTEventsDelegate.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTEventsManager.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTLocationManager.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTLogger.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTMockLocationManager.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTPushNotification.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTRequestManager.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTSDKControls.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTSettings.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTTrackedUserStore.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTTransmitter.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HTUserService.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HyperTrack.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HyperTrack.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/HypertrackService.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/AppleMapsProvider.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/CompletedView.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/DestinationMarkerView.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/ExpandedCard.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTCommonView.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTConsumerClient.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTLiveLocationView.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTLiveMultiStatusCard.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTLiveStatusCard.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTMap.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTMapAnnotation.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTMapViewDataSource.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTPlacePickerView.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTStatusCardInfo.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTStatusCardView.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTStatusInfo.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTView.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTViewCustomizationDelegate.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/HTViewInteractionDelegate.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/MapProviderProtocol.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/MarkerView.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/StartMarkerView.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Map/TripSummaryView.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTAction.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTActionDisplay.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTActionParams.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTConstants.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTEvent.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTExpandedUser.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTLocation.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTMapViewModel.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTPlace.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTTrackedUser.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTTrackedUserDataSource.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTUser.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Models/HTUserPlaceline.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/PlacelineView.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/CompletedView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/DestinationMarkerView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/ExpandedCard.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/HTView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/LiveLocationView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/LiveMultiStatus.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/LiveStatusCard.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/LocationPickerView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/MarkerETAView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/MarkerTitleView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/MarkerView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/arrow.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/backButton.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/battery.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/blackCircle.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/blackSquare.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/blackTip.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/blackTriangle.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/chooseOnMap.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/circle.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/destinationMarker.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/destionationEdit.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/dialler.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/driving.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/jetpack.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/locateMe.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/myLocation.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/ninja.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/origin.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/phone.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/pitchBlackSquare.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/pitchBlackTip.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/pitchBlackTriangle.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/pitchPink.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/place.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/play.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/purpleArrow.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/radiation.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/reFocus.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/recentlyVisited.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/rightArrow.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/savedPlace.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/scooter.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/searchResult.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/square.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/stop.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/stopOrEnd.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/triangle.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/Media.xcassets/walk.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/MultiStatusCardView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/PlacelineView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/SearchCellView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/SearchResultCell.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/SearchView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/StartMarkerView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/StatusCard.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/StatusCardView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/TripSummaryMultiple.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/TripSummaryView.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Resources/placeCell.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Utils/EncodedPolyline.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Utils/HTGenericUtils.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Utils/HTMapUtils.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Utils/MKAnnotationView+Transforms.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Utils/TimeAwarePolyline.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/Utils/UIViewExtension.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/HyperTrack/HyperTrack/placeCell.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/Alamofire.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/GzipSwift-beta.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/HyperTrack-HyperTrack.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/HyperTrack.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/Pods-Place&gt;People.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/Pods-Place&gt;PeopleTests.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/Pods-Place&gt;PeopleUITests.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/SQLite.swift.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/appletvos/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/appletvsimulator/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/iphoneos-10.0/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/iphoneos/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/iphonesimulator-10.0/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/iphonesimulator/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/macosx-10.11/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/macosx-10.12/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/macosx/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/watchos/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/CocoaPods/watchsimulator/module.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Core/Blob.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Core/Connection.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Core/Statement.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Core/Value.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Extensions/FTS4.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Extensions/FTS5.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Extensions/RTree.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Foundation.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Helpers.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/SQLite.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/AggregateFunctions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Collation.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/CoreFunctions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/CustomFunctions.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Expression.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Operators.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Query.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Schema.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLite/Typed/Setter.swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLiteObjc/SQLite-Bridging.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLiteObjc/fts3_tokenizer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/SQLite.swift/Sources/SQLiteObjc/include/SQLite-Bridging.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/GzipSwift-beta/GzipSwift-beta-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/GzipSwift-beta/GzipSwift-beta-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/GzipSwift-beta/GzipSwift-beta-umbrella.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/GzipSwift-beta/GzipSwift-beta.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/GzipSwift-beta/GzipSwift-beta.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/GzipSwift-beta/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HyperTrack/HyperTrack-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HyperTrack/HyperTrack-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HyperTrack/HyperTrack-umbrella.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HyperTrack/HyperTrack.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HyperTrack/HyperTrack.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HyperTrack/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/HyperTrack/ResourceBundle-HyperTrack-Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;People/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;People/Pods-Place&gt;People-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;People/Pods-Place&gt;People-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;People/Pods-Place&gt;People-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;People/Pods-Place&gt;People-frameworks.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;People/Pods-Place&gt;People-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;People/Pods-Place&gt;People-umbrella.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;People/Pods-Place&gt;People.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;People/Pods-Place&gt;People.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;People/Pods-Place&gt;People.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleTests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleTests/Pods-Place&gt;PeopleTests-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleTests/Pods-Place&gt;PeopleTests-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleTests/Pods-Place&gt;PeopleTests-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleTests/Pods-Place&gt;PeopleTests-frameworks.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleTests/Pods-Place&gt;PeopleTests-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleTests/Pods-Place&gt;PeopleTests-umbrella.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleTests/Pods-Place&gt;PeopleTests.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleTests/Pods-Place&gt;PeopleTests.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleTests/Pods-Place&gt;PeopleTests.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleUITests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleUITests/Pods-Place&gt;PeopleUITests-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleUITests/Pods-Place&gt;PeopleUITests-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleUITests/Pods-Place&gt;PeopleUITests-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleUITests/Pods-Place&gt;PeopleUITests-frameworks.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleUITests/Pods-Place&gt;PeopleUITests-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleUITests/Pods-Place&gt;PeopleUITests-umbrella.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleUITests/Pods-Place&gt;PeopleUITests.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleUITests/Pods-Place&gt;PeopleUITests.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Place&gt;PeopleUITests/Pods-Place&gt;PeopleUITests.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift-umbrella.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift.modulemap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SQLite.swift/SQLite.swift.xcconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/xcode.xml" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Place&gt;People.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/Place&gt;People.xcscheme" afterPath="$PROJECT_DIR$/Place&gt;People.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/Place&gt;People.xcscheme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/Place&gt;People.xcodeproj/xcuserdata/yiru.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People/AppDelegate.m" afterPath="$PROJECT_DIR$/Place&gt;People/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People/Info.plist" afterPath="$PROJECT_DIR$/Place&gt;People/Info.plist" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,14 +312,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_A4721C4D-577F-4167-8DD0-924B3AC46108" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_88853E31-9730-4319-B953-B5690CC3599F" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ViewController.m" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ViewController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Place&gt;People/ViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
+            <state relative-caret-position="165">
               <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Place&gt;People/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Podfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Podfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -27,13 +350,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Place&gt;People/Podfile" />
+        <option value="$PROJECT_DIR$/Podfile" />
+        <option value="$PROJECT_DIR$/Place&gt;People/AppDelegate.m" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="54" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -75,8 +407,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="CocoaPods" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Place&gt;People" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -101,6 +434,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="d5eb0bf9-fcf4-45cf-a473-358c13f9ddb7" name="Default" comment="" />
@@ -109,32 +445,35 @@
       <option name="presentableId" value="Default" />
       <updated>1506206435524</updated>
       <workItem from="1506206436775" duration="149000" />
+      <workItem from="1506209313024" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149000" />
+    <option name="totallyTimeSpent" value="1865000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="23" width="1440" height="813" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16420014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294964" sideWeight="0.5081043" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28482586" sideWeight="0.1529246" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.4918957" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -149,6 +488,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Place&gt;People/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Place&gt;People/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="appcode.project-settings://7e7907d8">
       <provider selected="true" editor-type-id="AppCode.ProjectSettings">
         <state />
@@ -156,8 +519,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Place&gt;People/ViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="appcode.project-settings://7e7907d8">
+      <provider selected="true" editor-type-id="AppCode.ProjectSettings">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Place&gt;People/Podfile" />
+    <entry file="file://$PROJECT_DIR$/Place&gt;People/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Place&gt;People/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>

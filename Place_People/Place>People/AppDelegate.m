@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+@import HyperTrack;
 
 
 @interface AppDelegate ()
@@ -44,6 +45,23 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    // Initialize HyperTrack SDK with your Publishable Key here
+    // Refer to documentation at
+    // https://docs.hypertrack.com/gettingstarted/authentication.html
+    // @NOTE: Add **@"pk_5ebc2e3919dfdb2f5bf294181f65906b59688110"** here for SDK to be
+    // authenticated with HyperTrack Server
+    [HyperTrack initialize:@"pk_5ebc2e3919dfdb2f5bf294181f65906b59688110"];
+    // Request for Always Location Authorization
+    // Request For Location Always Usage authorization before proceeding
+    // further with identifying user.
+    // @NOTE: Before this, Make sure to go to the Info tab in your app settings
+    // and add permission strings for "Privacy - Location Always
+    // Usage Description" and "Privacy - Motion Usage Description"
+    // Refer to https://docs.hypertrack.com/sdks/ios/setup.html for more info.
+    [HyperTrack requestAlwaysAuthorization];
+    [HyperTrack requestMotionAuthorization];
+
+
 }
 
 
