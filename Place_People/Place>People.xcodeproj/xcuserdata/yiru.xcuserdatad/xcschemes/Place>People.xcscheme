@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3899590DF9CEFA1D0376FA5B"
+               BuildableName = "Place&gt;People.app"
+               BlueprintName = "Place&gt;People"
+               ReferencedContainer = "container:Place&gt;People.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "3899590DF9CEFA1D0376FA5B"
+            BuildableName = "Place&gt;People.app"
+            BlueprintName = "Place&gt;People"
+            ReferencedContainer = "container:Place&gt;People.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
