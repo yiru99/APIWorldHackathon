@@ -6,8 +6,8 @@
 //  Copyright © 2017 APIWorldHackathon. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface MapViewController : NSObject
+@interface MapViewController : UIViewController
 
 @end
