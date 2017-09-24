@@ -2,15 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-<<<<<<< Updated upstream
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>To get accurate description</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>To get accurate description</string>
-=======
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
->>>>>>> Stashed changes
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
