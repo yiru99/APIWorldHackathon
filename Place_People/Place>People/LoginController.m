@@ -13,6 +13,11 @@
 
 
 @implementation LoginController
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [self.navigationController setNavigationBarHidden:TRUE];
+}
+
 - (IBAction)usernameChanged:(id)sender {
     self.username = self.usernameField.text;
 }
