@@ -16,6 +16,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.navigationController setNavigationBarHidden:TRUE];
+    self.usernameField.placeholder = @"Email";
+    self.passwordField.placeholder = @"Password";
 }
 
 - (IBAction)usernameChanged:(id)sender {

@@ -112,15 +112,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5o-Ql-0mJ">
-                                <rect key="frame" x="81" y="275" width="79" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5QO-Pr-HZy">
-                                <rect key="frame" x="176" y="270" width="118" height="30"/>
+                                <rect key="frame" x="90" y="266" width="194" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -131,7 +124,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bBO-9k-DUS">
-                                <rect key="frame" x="176" y="319" width="118" height="30"/>
+                                <rect key="frame" x="90" y="325" width="194" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -142,27 +135,24 @@
                                     <action selector="passwordDidEntered:" destination="gpg-cR-1Re" eventType="editingDidEnd" id="Rru-Nr-5CM"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pM-ze-KgF">
-                                <rect key="frame" x="81" y="322" width="79" height="24"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Ufx-5l-vdS">
+                                <rect key="frame" x="55" y="64" width="265" height="159"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9S9-sy-IH6">
-                                <rect key="frame" x="159" y="517" width="57" height="30"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGJ-6r-8K5">
+                                <rect key="frame" x="90" y="396" width="194" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Register"/>
-                                <connections>
-                                    <action selector="onRegisterClicked:" destination="gpg-cR-1Re" eventType="touchUpInside" id="K7G-kV-k8f"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGJ-6r-8K5">
-                                <rect key="frame" x="168" y="456" width="38" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Login"/>
+                                <state key="normal" title="Login" image="btn_sign In"/>
                                 <connections>
                                     <action selector="onLoginClicked:" destination="gpg-cR-1Re" eventType="touchUpInside" id="TWk-vY-wWo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9S9-sy-IH6">
+                                <rect key="frame" x="83" y="453" width="208" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Register" image="btn_sign up"/>
+                                <connections>
+                                    <action selector="onRegisterClicked:" destination="gpg-cR-1Re" eventType="touchUpInside" id="K7G-kV-k8f"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -305,5 +295,8 @@
         <image name="Asset 19@30px" width="30" height="40"/>
         <image name="Asset 20@30px" width="30" height="22"/>
         <image name="bg" width="750" height="1334"/>
+        <image name="btn_sign In" width="624" height="88"/>
+        <image name="btn_sign up" width="676" height="136"/>
+        <image name="logo" width="246" height="304"/>
     </resources>
 </document>
