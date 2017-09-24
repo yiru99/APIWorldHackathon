@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Notifications-->
         <scene sceneID="0GO-1N-12E">
             <objects>
                 <viewController id="tac-NK-TZj" sceneMemberID="viewController">
@@ -20,15 +20,80 @@
                     <view key="view" contentMode="scaleToFill" id="LC0-Bp-8ad">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Item 2" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ytd-gC-cgg">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="2Z8-cX-eE4"/>
+                    <tabBarItem key="tabBarItem" title="Notifications" image="icons8-Notification_30" id="2Z8-cX-eE4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6jn-US-K5g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="320" y="421"/>
         </scene>
-        <!--Item 1-->
+        <!--Settings-->
+        <scene sceneID="Akr-Th-PsZ">
+            <objects>
+                <viewController id="W2C-Sj-f0Q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XTE-YQ-GGa"/>
+                        <viewControllerLayoutGuide type="bottom" id="lZY-hD-oPK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zux-FX-chd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Item 4" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xbT-9J-eVw">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="icons8-Menu_30" id="2CP-5V-ZdS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c6I-9I-eTj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-620" y="1253"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="YRV-nK-psg">
+            <objects>
+                <viewController id="lEL-C4-eRW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kPX-Rd-4vO"/>
+                        <viewControllerLayoutGuide type="bottom" id="z6O-pb-5AR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U2B-NC-jFS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Item 3" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R7z-gg-Vjp">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="icons8-Map Marker_30" id="Vba-dL-m6U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ali-3O-65w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="306" y="1099"/>
+        </scene>
+        <!--Home-->
         <scene sceneID="mnR-1F-QHV">
             <objects>
                 <viewController id="mQT-mw-lDC" sceneMemberID="viewController">
@@ -39,9 +104,18 @@
                     <view key="view" contentMode="scaleToFill" id="ly1-mc-h57">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Item 1" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EWs-Ky-QXI">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="1O5-Cu-Upe"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="icons8-Home-50" id="1O5-Cu-Upe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zD3-In-8Pc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,6 +133,8 @@
                     <connections>
                         <segue destination="mQT-mw-lDC" kind="relationship" relationship="viewControllers" id="Msl-hU-xOg"/>
                         <segue destination="tac-NK-TZj" kind="relationship" relationship="viewControllers" id="Wf4-ff-Qer"/>
+                        <segue destination="lEL-C4-eRW" kind="relationship" relationship="viewControllers" id="ZNN-37-0gv"/>
+                        <segue destination="W2C-Sj-f0Q" kind="relationship" relationship="viewControllers" id="K2I-Yt-0eX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l9c-VL-pHr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -66,4 +142,10 @@
             <point key="canvasLocation" x="-632" y="88"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-Home-50" width="30" height="30"/>
+        <image name="icons8-Map Marker_30" width="30" height="30"/>
+        <image name="icons8-Menu_30" width="30" height="30"/>
+        <image name="icons8-Notification_30" width="30" height="30"/>
+    </resources>
 </document>
