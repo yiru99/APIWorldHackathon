@@ -12,7 +12,7 @@
         <!--Notifications-->
         <scene sceneID="0GO-1N-12E">
             <objects>
-                <viewController id="tac-NK-TZj" sceneMemberID="viewController">
+                <viewController id="tac-NK-TZj" customClass="NotificationViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hlR-dr-rjt"/>
                         <viewControllerLayoutGuide type="bottom" id="4bQ-nu-sbH"/>
