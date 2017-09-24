@@ -7,7 +7,6 @@
 
 @class PFObject;
 
-
 @interface Place : NSObject
 @property (strong, nonatomic) NSString *objectId;
 @property (strong, nonatomic) NSString *geofenceLocation;

@@ -7,7 +7,6 @@
 
 @class PFObject;
 
-
 @interface Post : NSObject
 @property (strong, nonatomic) NSString *objectId;
 @property (strong, nonatomic) NSString *placeId;

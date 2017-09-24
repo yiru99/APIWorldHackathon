@@ -7,7 +7,6 @@
 
 @class PFObject;
 
-
 @interface User : NSObject
 @property (strong, nonatomic) NSString *objectId;
 @property (strong, nonatomic) NSString *username;
