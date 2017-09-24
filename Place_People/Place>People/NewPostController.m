@@ -11,6 +11,9 @@
 
 @implementation NewPostController
 
+-(int)getRandomNumberBetween:(int)from to:(int)to {
+    return (int)from + arc4random() % (to-from+1);
+}
 
 
 - (IBAction)postBtn:(id)sender {
@@ -22,12 +25,20 @@
 //        [[PFUser currentUser] saveInBackground];
         
         NSLog(@"Button is clicked");
+        NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+        NSString *username = [userDefaults stringForKey:@"current_username"];
+        
         NSString* input = _postText.text;
         PFObject *newPost = [PFObject objectWithClassName:@"Post"];
         newPost[@"imageUrl"] = @"https://static.pexels.com/photos/20787/pexels-photo.jpg";
         newPost[@"location"] = userLocation;
         newPost[@"content"] = input;
         newPost[@"likes"] = @0;
+        newPost[@"author"] = username;
+        int randomNumber = [self getRandomNumberBetween:0 to:99];
+        float distance = randomNumber / 10.0f;
+        float roundDistance = round(distance*10) / 10.0;
+        [newPost setValue:[NSNumber numberWithFloat:roundDistance] forKey:@"distance"];
         [newPost saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
             if (succeeded) {
                 // The object has been saved.
