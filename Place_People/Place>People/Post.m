@@ -10,13 +10,13 @@
 - (id)initWithPFObject:(PFObject *)json {
     self = [super init];
     if (self) {
-        self.objectId = json[@"objectId"];
-        self.placeId = json[@"placeId"];
+        self.objectId = json.objectId;
+        self.distance = json[@"distance"];
         self.imageUrl = json[@"imageUrl"];
-        self.createdAt = json[@"createdAt"];
+        self.createdAt = json.createdAt;
         self.likes = json[@"likes"];
         self.content = json[@"content"];
-        self.userId = json[@"userId"];
+        self.author = json[@"author"];
     }
     return self;
 }

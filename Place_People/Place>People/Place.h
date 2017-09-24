@@ -9,7 +9,6 @@
 
 @interface Place : NSObject
 @property (strong, nonatomic) NSString *objectId;
-@property (strong, nonatomic) NSString *geofenceLocation;
 @property (strong, nonatomic) NSString *name;
 
 - (id)initWithPFObject:(PFObject *)json;

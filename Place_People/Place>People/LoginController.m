@@ -16,7 +16,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.navigationController setNavigationBarHidden:TRUE];
-    self.usernameField.placeholder = @"Email";
+    self.usernameField.placeholder = @"Username";
     self.passwordField.placeholder = @"Password";
 }
 

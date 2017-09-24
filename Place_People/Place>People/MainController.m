@@ -14,22 +14,22 @@
 @implementation MainController
 
 - (void)loadData {
-    PFQuery *userQuery = [PFUser query];
+//    PFQuery *userQuery = [PFUser query];
     PFQuery *postQuery = [PFQuery queryWithClassName:@"Post"];
-    PFQuery *placeQuery = [PFQuery queryWithClassName:@"Place"];
+//    PFQuery *placeQuery = [PFQuery queryWithClassName:@"Place"];
     NSMutableArray *posts = [NSMutableArray array];
-    NSMutableDictionary *users = [NSMutableDictionary dictionary];
-    NSMutableDictionary *places = [NSMutableDictionary dictionary];
-    [userQuery findObjectsInBackgroundWithBlock:^(NSArray *allUsers, NSError *error) {
-        for (PFObject *pfObject in allUsers) {
-            User *user = [[User alloc] initWithPFObject:pfObject];
-            users[user.username] = user;
-        }
-        NSDictionary* userInfo = @{@"users": users};
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"usersDataChanged"
-                                                            object:self
-                                                          userInfo:userInfo];
-    }];
+//    NSMutableDictionary *users = [NSMutableDictionary dictionary];
+//    NSMutableDictionary *places = [NSMutableDictionary dictionary];
+//    [userQuery findObjectsInBackgroundWithBlock:^(NSArray *allUsers, NSError *error) {
+//        for (PFObject *pfObject in allUsers) {
+//            User *user = [[User alloc] initWithPFObject:pfObject];
+//            users[user.username] = user;
+//        }
+//        NSDictionary* userInfo = @{@"users": users};
+//        [[NSNotificationCenter defaultCenter] postNotificationName:@"usersDataChanged"
+//                                                            object:self
+//                                                          userInfo:userInfo];
+//    }];
     // TODO: calcualte the effective places as a filter
     [postQuery findObjectsInBackgroundWithBlock:^(NSArray *allPosts, NSError *error) {
         for (PFObject *pfObject in allPosts) {
@@ -41,16 +41,16 @@
                                                             object:self
                                                           userInfo:userInfo];
     }];
-    [placeQuery findObjectsInBackgroundWithBlock:^(NSArray *allPlaces, NSError *error) {
-        for (PFObject *pfObject in allPlaces) {
-            Place *place = [[Place alloc] initWithPFObject:pfObject];
-            places[place.name] = place;
-        }
-        NSDictionary* userInfo = @{@"places": places};
-        [[NSNotificationCenter defaultCenter] postNotificationName:@"placesDataChanged"
-                                                            object:self
-                                                          userInfo:userInfo];
-    }];
+//    [placeQuery findObjectsInBackgroundWithBlock:^(NSArray *allPlaces, NSError *error) {
+//        for (PFObject *pfObject in allPlaces) {
+//            Place *place = [[Place alloc] initWithPFObject:pfObject];
+//            places[place.name] = place;
+//        }
+//        NSDictionary* userInfo = @{@"places": places};
+//        [[NSNotificationCenter defaultCenter] postNotificationName:@"placesDataChanged"
+//                                                            object:self
+//                                                          userInfo:userInfo];
+//    }];
 
 
     // The InBackground methods are asynchronous, so any code after this will run

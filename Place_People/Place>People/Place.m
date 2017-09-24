@@ -10,9 +10,8 @@
 - (id)initWithPFObject:(PFObject *)json {
     self = [super init];
     if (self) {
-        self.objectId = json[@"objectId"];
+        self.objectId = json.objectId;
         self.name = json[@"name"];
-        self.geofenceLocation = json[@"geofenceLocation"];
     }
     return self;
 }

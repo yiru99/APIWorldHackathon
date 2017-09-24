@@ -10,9 +10,9 @@
 - (id)initWithPFObject:(PFObject *)json {
     self = [super init];
     if (self) {
-//        self.objectId = json[@"objectId"];
+        self.objectId = json.objectId;
         self.username = json[@"username"];
-//        self.imageUrl = json[@"imageUrl"];
+        self.imageUrl = json[@"imageUrl"];
     }
     return self;
 }

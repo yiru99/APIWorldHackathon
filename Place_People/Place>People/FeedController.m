@@ -13,14 +13,14 @@
 @implementation FeedController
 
 - (void)viewDidLoad {
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(handleUsersNotification:)
-                                                 name:@"usersDataChanged"
-                                               object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(handlePlacesNotification:)
-                                                 name:@"placesDataChanged"
-                                               object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(handleUsersNotification:)
+//                                                 name:@"usersDataChanged"
+//                                               object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(handlePlacesNotification:)
+//                                                 name:@"placesDataChanged"
+//                                               object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(handlePostsNotification:)
                                                  name:@"postsDataChanged"
@@ -29,42 +29,41 @@
     self.tableView.dataSource = self;
     return;
 }
-- (id)init {
-    self = [super init];
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(handleUsersNotification:)
-                                                 name:@"usersDataChanged"
-                                               object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(handlePlacesNotification:)
-                                                 name:@"placesDataChanged"
-                                               object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(handlePostsNotification:)
-                                                 name:@"postsDataChanged"
-                                               object:nil];
-    return self;
-}
+//- (id)init {
+//    self = [super init];
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(handleUsersNotification:)
+//                                                 name:@"usersDataChanged"
+//                                               object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(handlePlacesNotification:)
+//                                                 name:@"placesDataChanged"
+//                                               object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(handlePostsNotification:)
+//                                                 name:@"postsDataChanged"
+//                                               object:nil];
+//    return self;
+//}
 
-- (void)handleUsersNotification:(NSNotification *)notification {
-    NSDictionary* userInfo = notification.userInfo;
-    self.users = userInfo[@"users"];
-    if (self.places && self.posts)
-        [self.tableView reloadData];
-}
-
-- (void)handlePlacesNotification:(NSNotification *)notification {
-    NSDictionary* userInfo = notification.userInfo;
-    self.places = userInfo[@"places"];
-    if (self.posts && self.users)
-        [self.tableView reloadData];
-}
+//- (void)handleUsersNotification:(NSNotification *)notification {
+//    NSDictionary* userInfo = notification.userInfo;
+//    self.users = userInfo[@"users"];
+//    if (self.places && self.posts)
+//        [self.tableView reloadData];
+//}
+//
+//- (void)handlePlacesNotification:(NSNotification *)notification {
+//    NSDictionary* userInfo = notification.userInfo;
+//    self.places = userInfo[@"places"];
+//    if (self.posts && self.users)
+//        [self.tableView reloadData];
+//}
 
 - (void)handlePostsNotification:(NSNotification *)notification {
     NSDictionary* userInfo = notification.userInfo;
     self.posts = userInfo[@"posts"];
-    if (self.users && self.places)
-        [self.tableView reloadData];
+    [self.tableView reloadData];
 }
 
 #pragma mark UITableViewDelegate
@@ -182,11 +181,13 @@
     Post *post = self.posts[indexPath.row];
 
     //Testing...
-    usernameLabel.text = @"Yiru Yao";
+    usernameLabel.text = post.author;
     NSData * imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"http://bestpickr.com/wp-content/uploads/Unbelievably-Cute-Dog-750x1192.jpg"]];
     userPic.image = [UIImage imageWithData: imageData];
-    postedTime.text = @"8 mins ago";
-    contentLabel.text = @"Going to a campfire today at the Ocean Beach. Anyone down? It will be around sunset time.";
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"h:mm"];
+    postedTime.text = [formatter stringFromDate:post.createdAt];
+    contentLabel.text = post.content;
 
     imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"http://icons.iconarchive.com/icons/icons8/ios7/256/Messaging-Like-icon.png"]];
     [likeButton setBackgroundImage:[UIImage imageWithData: imageData]forState:UIControlStateNormal];
@@ -205,7 +206,7 @@
     NSTextAttachment *attachment1 = [[NSTextAttachment alloc] init];
     attachment1.image = [UIImage imageNamed:@"map_pin.png"];
     NSAttributedString *attachmentString1 = [NSAttributedString attributedStringWithAttachment:attachment];
-    NSMutableAttributedString *myString1= [[NSMutableAttributedString alloc] initWithString:@"0.5mi"];
+    NSMutableAttributedString *myString1= [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat: @"%.1f mi", post.distance.floatValue]];
     [myString1 appendAttributedString:attachmentString1];
     distanceLabel.attributedText = myString1;
     distanceLabel.textAlignment = NSTextAlignmentRight;

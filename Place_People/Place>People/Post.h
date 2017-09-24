@@ -9,9 +9,9 @@
 
 @interface Post : NSObject
 @property (strong, nonatomic) NSString *objectId;
-@property (strong, nonatomic) NSString *placeId;
+@property (strong, nonatomic) NSNumber *distance;
 @property (strong, nonatomic) NSString *content;
-@property (strong, nonatomic) NSString *userId;
+@property (strong, nonatomic) NSString *author;
 @property (strong, nonatomic) NSDate *createdAt;
 @property (strong, nonatomic) NSString *imageUrl;
 @property (nonatomic, retain) NSNumber *likes;
