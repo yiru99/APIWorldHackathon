@@ -27,7 +27,8 @@
                                                object:nil];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
-    return;
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Hi! Looks like you are in APIWorld:)" message:@"Would you like to join our hyper local blob?" delegate:self cancelButtonTitle:@"Join Blob!" otherButtonTitles:@"I am a loner."];
+    [alert show];
 }
 //- (id)init {
 //    self = [super init];
@@ -63,7 +64,21 @@
 - (void)handlePostsNotification:(NSNotification *)notification {
     NSDictionary* userInfo = notification.userInfo;
     self.posts = userInfo[@"posts"];
-    [self.tableView reloadData];
+    if (self.shouldReload)
+        [self.tableView reloadData];
+    else
+        self.shouldReload = YES;
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == 0)
+    {
+        if (self.shouldReload)
+            [self.tableView reloadData];
+        else
+            self.shouldReload = YES;
+    }
 }
 
 #pragma mark UITableViewDelegate
