@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0505F5B1E95B9B099DC33932 /* Pods_Place_PeopleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 568DE55636F1031DC0C8DD1D /* Pods_Place_PeopleTests.framework */; };
+		2249C7831F778F05005EB528 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2249C7821F778F05005EB528 /* NotificationViewController.m */; };
 		2B540D461B58ADBCE733708A /* Pods_Place_PeopleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971DBF49DC61AF6734E49544 /* Pods_Place_PeopleUITests.framework */; };
 		3899500806B11EEE6C992446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389953669E7DFDE234CB4ADA /* Main.storyboard */; };
 		3899505A44B25188CB9D6834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38995052373603843F4A02B8 /* LaunchScreen.storyboard */; };
@@ -23,6 +24,7 @@
 		38995D5D9AF0F66E61309F6F /* Place_PeopleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389956D06FDB93662EE175A0 /* Place_PeopleTests.m */; };
 		577757331F776DA4004540A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577757321F776DA4004540A0 /* UIKit.framework */; };
 		641C002C6C6483C975D9C7E7 /* Pods_Place_People.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E0C10AE1CA38C00F8EF1B /* Pods_Place_People.framework */; };
+		B669BC821F778CCA002EE7FC /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B669BC811F778CCA002EE7FC /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		1E271DA79F1BC307EC31A92F /* Pods-Place>People.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Place>People.release.xcconfig"; path = "Pods/Target Support Files/Pods-Place>People/Pods-Place>People.release.xcconfig"; sourceTree = "<group>"; };
+		2249C7811F778F05005EB528 /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		2249C7821F778F05005EB528 /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
 		3899506D8B3F413ABA9E1F53 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		389950AB0CC8BC8C8B6BD63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		389950D7E5D7A8F65B72058A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		93A94C12688FDF1FE76B1E3F /* Pods-Place>PeopleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Place>PeopleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Place>PeopleUITests/Pods-Place>PeopleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		971DBF49DC61AF6734E49544 /* Pods_Place_PeopleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Place_PeopleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC3A56D31DDB67792256B3E /* Pods-Place>PeopleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Place>PeopleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Place>PeopleUITests/Pods-Place>PeopleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B669BC801F778CCA002EE7FC /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B669BC811F778CCA002EE7FC /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		D16A7E771F52C7D37AE5DF4C /* Pods-Place>PeopleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Place>PeopleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Place>PeopleTests/Pods-Place>PeopleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,6 +151,8 @@
 		3899554B52DB7D240B70289E /* Place>People */ = {
 			isa = PBXGroup;
 			children = (
+				2249C7811F778F05005EB528 /* NotificationViewController.h */,
+				2249C7821F778F05005EB528 /* NotificationViewController.m */,
 				57AE76541F77205C00CB4562 /* Place>People.entitlements */,
 				38995EBC6C84C49EB193302C /* Info.plist */,
 				3899574765D7DBE90E45223A /* Assets.xcassets */,
@@ -152,6 +160,8 @@
 				38995AB64F72CB088AFC7D4F /* Supporting Files */,
 				3899512F459F92E9CCF38E5B /* AppDelegate.h */,
 				3899562F262841E399E2D267 /* AppDelegate.m */,
+				B669BC801F778CCA002EE7FC /* MapViewController.h */,
+				B669BC811F778CCA002EE7FC /* MapViewController.m */,
 				389953669E7DFDE234CB4ADA /* Main.storyboard */,
 				3899511FD90965B1AF735D68 /* ViewController.h */,
 				389950D7E5D7A8F65B72058A /* ViewController.m */,
@@ -503,12 +513,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2249C7831F778F05005EB528 /* NotificationViewController.m in Sources */,
 				389954C80E04648BD6C9CF7B /* main.m in Sources */,
 				3899561794A4C19894D6B6DF /* AppDelegate.m in Sources */,
 				38995D0948C88C4B3947432D /* ViewController.m in Sources */,
 				389959E963E6E5C22D77AC24 /* LaunchController.m in Sources */,
 				389958A48A8DD8673272F92D /* LoginController.m in Sources */,
 				3899542CACB8B6428C5DFA58 /* FeedController.m in Sources */,
+				B669BC821F778CCA002EE7FC /* MapViewController.m in Sources */,
 				38995A91CCDD0E0CC45DA768 /* feedCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
