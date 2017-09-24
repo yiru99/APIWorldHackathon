@@ -12,6 +12,7 @@
 
 @interface MapViewController() <HTViewCustomizationDelegate, HTViewInteractionDelegate, HTEventsDelegate>
 @property (weak, nonatomic) IBOutlet UIView *hyperTrackView;
+@property (weak, nonatomic) IBOutlet UIView *mapView;
 
 @end
 
@@ -32,7 +33,18 @@
     // Configure events delegate in HyperTrack map
     [HyperTrack setEventsDelegateWithEventDelegate:self];
     
-    [map embedIn:self.view];
+    [HyperTrack trackActionForActionID:@"0587cb0a-824b-45ba-8468-664325a51735" completionHandler:^(HyperTrackAction *  action , HyperTrackError * error) {
+        if (error != nil) {
+            // Handle trackActionForActionID API error here
+            NSLog(@"Error in trackOrder: %@", error.debugDescription);
+        } else {
+            // Handle trackActionForActionID API success here
+            NSLog(@"trackAction for Action ID successful");
+        }
+    }];
+
+    
+    [map embedIn:self.mapView];
 }
 
 - (void)didReceiveMemoryWarning {
