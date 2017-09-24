@@ -104,8 +104,9 @@
     [userDefaults setObject:self.username forKey:@"current_username"];
     [userDefaults setObject:self.password forKey:@"current_password"];
     [userDefaults synchronize];
-    MainController *mainController = [[MainController alloc] init];
-    [self.navigationController pushViewController:mainController animated:YES];
+//    MainController *mainController = [[MainController alloc] init];
+//    [self.navigationController pushViewController:mainController animated:YES];
+    [self performSegueWithIdentifier:@"MainTabView" sender:self];
 }
 
 - (void) showAlert: (NSString *)title

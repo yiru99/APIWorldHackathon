@@ -171,6 +171,7 @@
                     <connections>
                         <outlet property="passwordField" destination="bBO-9k-DUS" id="GM9-Ry-a9f"/>
                         <outlet property="usernameField" destination="5QO-Pr-HZy" id="buQ-dk-7a2"/>
+                        <segue destination="fTb-V1-SjL" kind="show" identifier="MainTabView" id="k7u-AZ-9OR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pSh-So-fHR" userLabel="First Responder" sceneMemberID="firstResponder"/>
