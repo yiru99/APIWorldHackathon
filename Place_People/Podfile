@@ -17,6 +17,7 @@ target 'Place>People' do
     end
   end
 
+  pod 'Parse'
 
   target 'Place>PeopleTests' do
     inherit! :search_paths
