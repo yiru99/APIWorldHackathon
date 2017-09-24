@@ -33,7 +33,7 @@
     // Configure events delegate in HyperTrack map
     [HyperTrack setEventsDelegateWithEventDelegate:self];
     
-    [HyperTrack trackActionForActionID:@"0587cb0a-824b-45ba-8468-664325a51735" completionHandler:^(HyperTrackAction *  action , HyperTrackError * error) {
+    [HyperTrack trackActionForActionID:@"ad98b729-a11b-464c-b3fc-bc16dcedacc0" completionHandler:^(HyperTrackAction *  action , HyperTrackError * error) {
         if (error != nil) {
             // Handle trackActionForActionID API error here
             NSLog(@"Error in trackOrder: %@", error.debugDescription);
@@ -42,7 +42,26 @@
             NSLog(@"trackAction for Action ID successful");
         }
     }];
-
+    
+    
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSString *username = [userDefaults stringForKey:@"current_username"];
+    
+    [HyperTrack getOrCreateUser:username _phone:@"" :@""
+              completionHandler:^(HyperTrackUser * _Nullable htuser,
+                                  HyperTrackError * _Nullable error) {
+                  if (htuser) {
+                      // Handle createUser success here, if required
+                      // HyperTrack SDK auto-configures UserId on createUser API call,
+                      // so no need to call [HyperTrack setUserId:@"USER_ID"] API
+                      
+                      // Handle createUser API success here
+                      [HyperTrack startMockTracking];
+                  } else {
+                      // Handle createUser error here, if required
+                      NSLog(@"%@", error.debugDescription);
+                  }
+              }];
     
     [map embedIn:self.mapView];
 }
