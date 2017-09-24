@@ -6,8 +6,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-
 @interface FeedController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+- (IBAction)newPostBtn:(id)sender;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, retain) NSMutableArray *posts;
 @property (nonatomic, retain) NSMutableDictionary *users;

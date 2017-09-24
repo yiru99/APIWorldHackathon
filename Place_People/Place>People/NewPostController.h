@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface NewPostController : UIViewController
+- (IBAction)backBtn:(id)sender;
 @property (strong, nonatomic) IBOutlet UITextView *postText;
 @property (strong, nonatomic) IBOutlet UIButton *postBtn;
 

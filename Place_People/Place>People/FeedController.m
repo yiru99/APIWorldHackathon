@@ -225,4 +225,10 @@
 
 }
 
+
+- (IBAction)newPostBtn:(id)sender {
+    NSLog(@"New Post Button clicked");
+    [self performSegueWithIdentifier:@"NewPostView" sender:self];
+
+}
 @end
