@@ -44,7 +44,7 @@
                                                               // so no need to call [HyperTrack setUserId:@"USER_ID"] API
 
                                                               // Handle createUser API success here
-                                                              [self onUserLoginSuccess:pfuser HTUser:htuser];
+                                                              [self onUserLoginSuccess];
                                                           } else {
                                                               // Handle createUser error here, if required
                                                               [self showAlert:@"Error while creating pfuser" message:error.debugDescription];
@@ -78,7 +78,7 @@
                               // so no need to call [HyperTrack setUserId:@"USER_ID"] API
 
                               // Handle createUser API success here
-                              [self onUserLoginSuccess:pfuser HTUser:htuser];
+                              [self onUserLoginSuccess];
                           } else {
                               // Handle createUser error here, if required
                               [self showAlert:@"Error while creating pfuser" message:error.debugDescription];
@@ -95,16 +95,16 @@
     }];
 }
 
--(void)onUserLoginSuccess:PFUser HTUser:(HyperTrackUser *)HTUser {
+-(void)onUserLoginSuccess {
     // Start tracking the user on successful login. This indicates the user
     // is online.
     [HyperTrack startTracking];
 
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    [userDefaults setObject:PFUser forKey:@"current_pfuser"];
-    [userDefaults setObject:HTUser forKey:@"current_htuser"];
+    [userDefaults setObject:self.username forKey:@"current_username"];
+    [userDefaults setObject:self.password forKey:@"current_password"];
     [userDefaults synchronize];
-    FeedController *feedController = [FeedController init];
+    FeedController *feedController = [[FeedController alloc] init];
     [self.navigationController pushViewController:feedController animated:YES];
 }
 
