@@ -18,6 +18,7 @@
 		389957862E1A7D411D3579A2 /* Place_PeopleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38995CFA1A5C95F060C0FADD /* Place_PeopleUITests.m */; };
 		389958A48A8DD8673272F92D /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389953D99B6F755570BF5EDB /* LoginController.m */; };
 		389959E963E6E5C22D77AC24 /* LaunchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38995742B1177970EF2B380A /* LaunchController.m */; };
+		38995A91CCDD0E0CC45DA768 /* feedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 389955382221A7AAE05D36C1 /* feedCell.m */; };
 		38995D0948C88C4B3947432D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389950D7E5D7A8F65B72058A /* ViewController.m */; };
 		38995D5D9AF0F66E61309F6F /* Place_PeopleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389956D06FDB93662EE175A0 /* Place_PeopleTests.m */; };
 		577757331F776DA4004540A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577757321F776DA4004540A0 /* UIKit.framework */; };
@@ -47,11 +48,13 @@
 		389950AB0CC8BC8C8B6BD63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		389950D7E5D7A8F65B72058A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3899511FD90965B1AF735D68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		38995123EEAF416FBF7E6E13 /* feedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedCell.h; sourceTree = "<group>"; };
 		3899512F459F92E9CCF38E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		389951C13256A04DB81E4188 /* FeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedController.m; sourceTree = "<group>"; };
 		389951FBB864B35B2D9C8FF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3899531E9B5BBC9C5600EC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		389953D99B6F755570BF5EDB /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		389955382221A7AAE05D36C1 /* feedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedCell.m; sourceTree = "<group>"; };
 		3899562F262841E399E2D267 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		389956D06FDB93662EE175A0 /* Place_PeopleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Place_PeopleTests.m; sourceTree = "<group>"; };
 		38995742B1177970EF2B380A /* LaunchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchController.m; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 				3899506D8B3F413ABA9E1F53 /* LoginController.h */,
 				389951C13256A04DB81E4188 /* FeedController.m */,
 				38995DC3F9406076B382D9BC /* FeedController.h */,
+				389955382221A7AAE05D36C1 /* feedCell.m */,
+				38995123EEAF416FBF7E6E13 /* feedCell.h */,
 			);
 			path = "Place>People";
 			sourceTree = "<group>";
@@ -504,6 +509,7 @@
 				389959E963E6E5C22D77AC24 /* LaunchController.m in Sources */,
 				389958A48A8DD8673272F92D /* LoginController.m in Sources */,
 				3899542CACB8B6428C5DFA58 /* FeedController.m in Sources */,
+				38995A91CCDD0E0CC45DA768 /* feedCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

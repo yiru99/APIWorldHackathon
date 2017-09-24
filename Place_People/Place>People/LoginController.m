@@ -11,12 +11,18 @@
 
 
 @implementation LoginController
+- (IBAction)usernameChanged:(id)sender {
+    self.username = self.usernameField.text;
+}
+- (IBAction)passwordChanged:(id)sender {
+    self.password = self.passwordField.text;
+}
 
 - (IBAction)usernameDidEntered:(id)sender {
-    self.username = ((UITextField *)sender).text;
+    self.username = self.usernameField.text;
 }
 - (IBAction)passwordDidEntered:(id)sender {
-    self.password = ((UITextField *)sender).text;
+    self.password = self.passwordField.text;
 }
 - (IBAction)onLoginClicked:(id)sender {
     [PFUser logInWithUsernameInBackground:self.username password:self.password

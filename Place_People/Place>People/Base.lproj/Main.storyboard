@@ -93,10 +93,10 @@
             </objects>
             <point key="canvasLocation" x="306" y="1099"/>
         </scene>
-        <!--View Controller-->
+        <!--Login Controller-->
         <scene sceneID="l1I-SE-DSs">
             <objects>
-                <viewController id="gpg-cR-1Re" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="gpg-cR-1Re" customClass="LoginController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gym-VD-u6k"/>
                         <viewControllerLayoutGuide type="bottom" id="za8-ru-q6N"/>
@@ -119,7 +119,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" textContentType="username"/>
                                 <connections>
-                                    <action selector="usernameDidEntered:" destination="crA-yS-Ev1" eventType="editingDidEnd" id="QWL-dJ-fw4"/>
+                                    <action selector="usernameChanged:" destination="gpg-cR-1Re" eventType="editingChanged" id="C02-ms-7Vk"/>
+                                    <action selector="usernameDidEntered:" destination="gpg-cR-1Re" eventType="editingDidEnd" id="DyO-JT-8kl"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bBO-9k-DUS">
@@ -129,7 +130,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                 <connections>
-                                    <action selector="passwordDidEntered:" destination="crA-yS-Ev1" eventType="editingDidEnd" id="qOm-Dy-AQO"/>
+                                    <action selector="passwordChanged:" destination="gpg-cR-1Re" eventType="editingChanged" id="dQJ-S4-TFc"/>
+                                    <action selector="passwordChanged:" destination="gpg-cR-1Re" eventType="editingDidEnd" id="go6-ML-ijT"/>
+                                    <action selector="passwordDidEntered:" destination="gpg-cR-1Re" eventType="editingDidEnd" id="Rru-Nr-5CM"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pM-ze-KgF">
@@ -144,7 +147,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
-                                    <action selector="onLoginClicked:" destination="crA-yS-Ev1" eventType="touchUpInside" id="FVt-Rc-s64"/>
+                                    <action selector="onLoginClicked:" destination="gpg-cR-1Re" eventType="touchUpInside" id="TWk-vY-wWo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9S9-sy-IH6">
@@ -152,7 +155,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Register"/>
                                 <connections>
-                                    <action selector="onRegisterClicked:" destination="crA-yS-Ev1" eventType="touchUpInside" id="9ra-n8-LCn"/>
+                                    <action selector="onRegisterClicked:" destination="gpg-cR-1Re" eventType="touchUpInside" id="K7G-kV-k8f"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -161,9 +164,12 @@
                             <bool key="isElement" value="YES"/>
                         </accessibility>
                     </view>
+                    <connections>
+                        <outlet property="passwordField" destination="bBO-9k-DUS" id="GM9-Ry-a9f"/>
+                        <outlet property="usernameField" destination="5QO-Pr-HZy" id="buQ-dk-7a2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pSh-So-fHR" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="crA-yS-Ev1" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-1271.2" y="92.203898050974516"/>
         </scene>
@@ -205,7 +211,7 @@
                             </items>
                         </navigationBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="131" id="Ec3-bn-Iz1">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="feedCell" rowHeight="131" id="Ec3-bn-Iz1" customClass="feedCell">
                                 <rect key="frame" x="0.0" y="72" width="375" height="131"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ec3-bn-Iz1" id="ffk-3K-zIk" customClass="UITableViewCell" customModule="Place_People">
@@ -263,6 +269,16 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="comment" destination="lxf-mp-v86" id="cOr-Lk-lrL"/>
+                                    <outlet property="countdown" destination="bub-Wj-ztv" id="afF-xG-ZdI"/>
+                                    <outlet property="createdDate" destination="GgX-0L-Y6k" id="ehC-PA-slT"/>
+                                    <outlet property="like" destination="QXq-1k-w4n" id="IX7-I3-yvZ"/>
+                                    <outlet property="location" destination="eR8-MO-dnK" id="y2h-jx-9sg"/>
+                                    <outlet property="mainContent" destination="T01-0D-Akn" id="493-a2-98m"/>
+                                    <outlet property="userName" destination="BJo-MH-5nd" id="Z8J-l3-VGZ"/>
+                                    <outlet property="userPic" destination="gwY-Bi-feQ" id="vrA-mv-Kkt"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
