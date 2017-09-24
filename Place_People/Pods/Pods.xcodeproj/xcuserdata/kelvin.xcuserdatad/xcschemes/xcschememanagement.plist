@@ -7,6 +7,11 @@
 		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
 		<key>GzipSwift-beta.xcscheme</key>
@@ -24,25 +29,30 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>Pods-Place&gt;People.xcscheme</key>
+		<key>Parse.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>Pods-Place&gt;PeopleTests.xcscheme</key>
+		<key>Pods-Place&gt;People.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
-		<key>Pods-Place&gt;PeopleUITests.xcscheme</key>
+		<key>Pods-Place&gt;PeopleTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
-		<key>SQLite.swift.xcscheme</key>
+		<key>Pods-Place&gt;PeopleUITests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>9</integer>
+		</dict>
+		<key>SQLite.swift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 	</dict>
 </dict>

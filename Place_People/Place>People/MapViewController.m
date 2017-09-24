@@ -7,8 +7,11 @@
 //
 
 #import "MapViewController.h"
+@import HyperTrack;
 
-@interface MapViewController ()
+
+@interface MapViewController() <HTViewCustomizationDelegate, HTViewInteractionDelegate, HTEventsDelegate>
+@property (weak, nonatomic) IBOutlet UIView *hyperTrackView;
 
 @end
 
@@ -16,7 +19,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // Instantiate HyperTrack map view and embed this in your view
+    HTMap * map = [HyperTrack map];
+    
+    // Configure view interaction delegate in HyperTrack map
+    [map setHTViewInteractionDelegateWithInteractionDelegate:self];
+    
+    // Configure view customization delegate in HyperTrack map
+    [map setHTViewCustomizationDelegateWithCustomizationDelegate:self];
+    
+    // Configure events delegate in HyperTrack map
+    [HyperTrack setEventsDelegateWithEventDelegate:self];
+    
+    [map embedIn:self.view];
 }
 
 - (void)didReceiveMemoryWarning {
