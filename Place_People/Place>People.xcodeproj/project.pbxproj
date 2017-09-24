@@ -310,7 +310,7 @@
 				ORGANIZATIONNAME = APIWorldHackathon;
 				TargetAttributes = {
 					3899590DF9CEFA1D0376FA5B = {
-						DevelopmentTeam = J984RE9HWL;
+						DevelopmentTeam = 9BK5Q9R44A;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -605,7 +605,7 @@
 			baseConfigurationReference = 1E271DA79F1BC307EC31A92F /* Pods-Place>People.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J984RE9HWL;
+				DEVELOPMENT_TEAM = 9BK5Q9R44A;
 				INFOPLIST_FILE = "Place>People/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "APIWorldHackathon.Place-People";
@@ -672,7 +672,7 @@
 			baseConfigurationReference = 750F42957EB8FF7144C37DF0 /* Pods-Place>People.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J984RE9HWL;
+				DEVELOPMENT_TEAM = 9BK5Q9R44A;
 				INFOPLIST_FILE = "Place>People/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "APIWorldHackathon.Place-People";

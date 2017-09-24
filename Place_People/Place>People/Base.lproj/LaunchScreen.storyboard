@@ -21,9 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="mGm-Sk-Ne7">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="mGm-Sk-Ne7">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="GJD-r1-7od">
                                 <rect key="frame" x="96" y="247" width="182" height="172"/>
@@ -31,6 +30,13 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mGm-Sk-Ne7" firstAttribute="leading" secondItem="TIP-sm-VR2" secondAttribute="leading" id="QMT-hA-ZUK"/>
+                            <constraint firstItem="mGm-Sk-Ne7" firstAttribute="top" secondItem="TIP-sm-VR2" secondAttribute="top" id="TM0-6y-pxE"/>
+                            <constraint firstAttribute="bottom" secondItem="mGm-Sk-Ne7" secondAttribute="bottom" id="VOS-qE-Wu5"/>
+                            <constraint firstAttribute="trailing" secondItem="mGm-Sk-Ne7" secondAttribute="trailing" id="VUE-sA-U68"/>
+                            <constraint firstItem="mGm-Sk-Ne7" firstAttribute="top" secondItem="TIP-sm-VR2" secondAttribute="top" id="XKX-ij-T5h"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" id="JX8-gn-Tze">
