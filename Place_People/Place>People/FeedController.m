@@ -12,40 +12,75 @@
 
 @implementation FeedController
 
+- (void)viewDidLoad {
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(handleUsersNotification:)
+                                                 name:@"usersDataChanged"
+                                               object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(handlePlacesNotification:)
+                                                 name:@"placesDataChanged"
+                                               object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(handlePostsNotification:)
+                                                 name:@"postsDataChanged"
+                                               object:nil];
+    return;
+}
 - (id)init {
     self = [super init];
-    [self loadData];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(handleUsersNotification:)
+                                                 name:@"usersDataChanged"
+                                               object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(handlePlacesNotification:)
+                                                 name:@"placesDataChanged"
+                                               object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(handlePostsNotification:)
+                                                 name:@"postsDataChanged"
+                                               object:nil];
     return self;
 }
 
-- (void)loadData {
-    PFQuery *userQuery = [PFQuery queryWithClassName:@"User"];
-    PFQuery *postQuery = [PFQuery queryWithClassName:@"Post"];
-    PFQuery *placeQuery = [PFQuery queryWithClassName:@"Place"];
-    [userQuery findObjectsInBackgroundWithBlock:^(NSArray *allUsers, NSError *error) {
-        for (PFObject *pfObject in allUsers) {
-            User *user = [[User alloc] initWithPFObject:pfObject];
-            self.users[user.objectId] = user;
-        }
-    }];
-    // TODO: calcualte the effective places as a filter
-    [postQuery findObjectsInBackgroundWithBlock:^(NSArray *allPosts, NSError *error) {
-        for (PFObject *pfObject in allPosts) {
-            Post *post = [[Post alloc] initWithPFObject:pfObject];
-            [self.posts addObject:post];
-        }
-    }];
-    [placeQuery findObjectsInBackgroundWithBlock:^(NSArray *allPlaces, NSError *error) {
-        for (PFObject *pfObject in allPlaces) {
-            Place *place = [[Place alloc] initWithPFObject:pfObject];
-            self.places[place.objectId] = place;
-        }
-    }];
+- (void)handleUsersNotification:(id)object {
+    self.users = object;
+    if (self.places && self.posts)
+        [self.tableView reloadData];
+}
 
+- (void)handlePlacesNotification:(id)object {
+    self.places = object;
+    if (self.posts && self.users)
+        [self.tableView reloadData];
+}
 
-    // The InBackground methods are asynchronous, so any code after this will run
-    // immediately.  Any code that depends on the query result should be moved
-    // inside the completion block above.
+- (void)handlePostsNotification:(id)object {
+    self.posts = object;
+    if (self.users && self.places)
+        [self.tableView reloadData];
+}
+
+#pragma mark UITableViewDelegate
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.posts ? self.posts.count : 0;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return nil;
+}
+
+- (void)likeApost {
+
+}
+
+- (void)commentApost {
+
 }
 
 @end

@@ -37,6 +37,17 @@
     return YES;
 }
 
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo NS_AVAILABLE_IOS(3_0) {
+    if (userInfo) {
+        NSLog(@"Received Remote Notification (wasActive=%@): %@", application.applicationState == UIApplicationStateActive ? @"YES" : @"NO", userInfo);
+        // Sync server changes if app is active
+        if (application.applicationState == UIApplicationStateActive ) {
+
+            return;
+        }
+    }
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
