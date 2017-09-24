@@ -7,56 +7,56 @@
 		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<false />
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
 		<key>GzipSwift-beta.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<false />
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
 		<key>HyperTrack-HyperTrack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<false />
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
 		<key>HyperTrack.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<false />
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
 		<key>Pods-Place&gt;People.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<false />
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
 		<key>Pods-Place&gt;PeopleTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<false />
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
 		<key>Pods-Place&gt;PeopleUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<false />
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
 		<key>SQLite.swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<false />
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
@@ -66,42 +66,42 @@
 		<key>0BA4AAA4FC384BE4182399418AE1E718</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>30743492CF76E46548E2C440737645D6</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>4B863B4825FC2F9256932C1BD8D66B3F</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>6BAC038E4BB608ABDDDBDCA0F70A61D3</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>6C849C1B91D642724376CC468A1B1743</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>7999747E5D1CF3F5A266B42B1CC836B7</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 		<key>963F2A5BCC4FD56D1E2512F17493A0FF</key>
 		<dict>
 			<key>primary</key>
-			<true/>
+			<true />
 		</dict>
 	</dict>
 </dict>
