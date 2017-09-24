@@ -180,9 +180,8 @@
 
     Post *post = self.posts[indexPath.row];
 
-    //Testing...
     usernameLabel.text = post.author;
-    NSData * imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: @"http://bestpickr.com/wp-content/uploads/Unbelievably-Cute-Dog-750x1192.jpg"]];
+    NSData * imageData = [[NSData alloc] initWithContentsOfURL: [NSURL URLWithString: post.imageUrl]];
     userPic.image = [UIImage imageWithData: imageData];
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:@"h:mm"];

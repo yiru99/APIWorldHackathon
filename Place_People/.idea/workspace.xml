@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5eb0bf9-fcf4-45cf-a473-358c13f9ddb7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People.xcworkspace/xcuserdata/yiru.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/Place&gt;People.xcworkspace/xcuserdata/yiru.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People/FeedController.m" afterPath="$PROJECT_DIR$/Place&gt;People/FeedController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People/LoginController.m" afterPath="$PROJECT_DIR$/Place&gt;People/LoginController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People/MainController.m" afterPath="$PROJECT_DIR$/Place&gt;People/MainController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People/Place.h" afterPath="$PROJECT_DIR$/Place&gt;People/Place.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People/Place.m" afterPath="$PROJECT_DIR$/Place&gt;People/Place.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People/Post.h" afterPath="$PROJECT_DIR$/Place&gt;People/Post.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People/Post.m" afterPath="$PROJECT_DIR$/Place&gt;People/Post.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Place&gt;People/User.m" afterPath="$PROJECT_DIR$/Place&gt;People/User.m" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +18,8 @@
       <file leaf-file-name="FeedController.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Place&gt;People/FeedController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="191" column="44" lean-forward="true" selection-start-line="191" selection-start-column="44" selection-end-line="191" selection-end-column="44" />
+            <state relative-caret-position="-973">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#104#130#0" expanded="true" />
               </folding>
@@ -38,7 +30,7 @@
       <file leaf-file-name="MainController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Place&gt;People/MainController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-53">
+            <state relative-caret-position="407">
               <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#104#130#0" expanded="true" />
@@ -108,6 +100,7 @@
       <find>placeholder</find>
       <find>PLACEhoLDER</find>
       <find>observer</find>
+      <find>hh</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -239,7 +232,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35643000" />
+    <option name="totallyTimeSpent" value="36634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -308,18 +301,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Place&gt;People/MainController.m</url>
-          <line>39</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Place&gt;People/FeedController.m</url>
-          <line>23</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="64" />
     </breakpoint-manager>
     <watches-manager />
@@ -680,7 +661,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Place&gt;People/MainController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
+        <state relative-caret-position="407">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#104#130#0" expanded="true" />
@@ -690,8 +671,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Place&gt;People/FeedController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="191" column="44" lean-forward="true" selection-start-line="191" selection-start-column="44" selection-end-line="191" selection-end-column="44" />
+        <state relative-caret-position="-973">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#104#130#0" expanded="true" />
           </folding>
