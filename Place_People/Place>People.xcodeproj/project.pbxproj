@@ -15,11 +15,13 @@
 		3899533A6FD46C8A5D6F8321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3899574765D7DBE90E45223A /* Assets.xcassets */; };
 		3899542CACB8B6428C5DFA58 /* FeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389951C13256A04DB81E4188 /* FeedController.m */; };
 		389954C80E04648BD6C9CF7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 389951FBB864B35B2D9C8FF8 /* main.m */; };
+		389954CEC43530AB221273D8 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 38995E8C40B9320C0C3DFD93 /* Post.m */; };
 		3899561794A4C19894D6B6DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3899562F262841E399E2D267 /* AppDelegate.m */; };
+		3899561C964E6B566D1E169C /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 38995375AB1A8525D9D4A62E /* Place.m */; };
 		389957862E1A7D411D3579A2 /* Place_PeopleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38995CFA1A5C95F060C0FADD /* Place_PeopleUITests.m */; };
+		389957A60FE75121B5F2B58C /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389950E4E5B9899DC487BFCC /* MainController.m */; };
 		389958A48A8DD8673272F92D /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389953D99B6F755570BF5EDB /* LoginController.m */; };
 		389959E963E6E5C22D77AC24 /* LaunchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38995742B1177970EF2B380A /* LaunchController.m */; };
-		38995A91CCDD0E0CC45DA768 /* feedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 389955382221A7AAE05D36C1 /* feedCell.m */; };
 		38995D0948C88C4B3947432D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389950D7E5D7A8F65B72058A /* ViewController.m */; };
 		38995D5D9AF0F66E61309F6F /* Place_PeopleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389956D06FDB93662EE175A0 /* Place_PeopleTests.m */; };
 		577757331F776DA4004540A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577757321F776DA4004540A0 /* UIKit.framework */; };
@@ -51,19 +53,22 @@
 		3899506D8B3F413ABA9E1F53 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		389950AB0CC8BC8C8B6BD63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		389950D7E5D7A8F65B72058A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		389950E4E5B9899DC487BFCC /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		3899511FD90965B1AF735D68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38995123EEAF416FBF7E6E13 /* feedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedCell.h; sourceTree = "<group>"; };
 		3899512F459F92E9CCF38E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		389951C13256A04DB81E4188 /* FeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedController.m; sourceTree = "<group>"; };
 		389951FBB864B35B2D9C8FF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3899529224A9CD94505A38FA /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		3899531E9B5BBC9C5600EC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38995375AB1A8525D9D4A62E /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
 		389953D99B6F755570BF5EDB /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
-		389955382221A7AAE05D36C1 /* feedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedCell.m; sourceTree = "<group>"; };
 		3899562F262841E399E2D267 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		389956D06FDB93662EE175A0 /* Place_PeopleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Place_PeopleTests.m; sourceTree = "<group>"; };
 		38995742B1177970EF2B380A /* LaunchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchController.m; sourceTree = "<group>"; };
 		3899574765D7DBE90E45223A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3899576BD156E680D824018E /* Place>People.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Place>People.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		389958D9CD78144C504120BB /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		38995A3C1A0CA5B14F6E2BFE /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		38995ABC7252FF5F01E71990 /* Place>PeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Place>PeopleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38995C14144CEEEED65F8C81 /* Place>PeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Place>PeopleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38995CBFF270168427BCB6B7 /* LaunchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchController.h; sourceTree = "<group>"; };
@@ -71,6 +76,7 @@
 		38995D6D33F3EE44C2249B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		38995D9DA3393E42B9C2E87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		38995DC3F9406076B382D9BC /* FeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedController.h; sourceTree = "<group>"; };
+		38995E8C40B9320C0C3DFD93 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		38995EBC6C84C49EB193302C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		4D5E0C10AE1CA38C00F8EF1B /* Pods_Place_People.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Place_People.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		568DE55636F1031DC0C8DD1D /* Pods_Place_PeopleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Place_PeopleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,8 +177,12 @@
 				3899506D8B3F413ABA9E1F53 /* LoginController.h */,
 				389951C13256A04DB81E4188 /* FeedController.m */,
 				38995DC3F9406076B382D9BC /* FeedController.h */,
-				389955382221A7AAE05D36C1 /* feedCell.m */,
-				38995123EEAF416FBF7E6E13 /* feedCell.h */,
+				389950E4E5B9899DC487BFCC /* MainController.m */,
+				38995A3C1A0CA5B14F6E2BFE /* MainController.h */,
+				38995E8C40B9320C0C3DFD93 /* Post.m */,
+				3899529224A9CD94505A38FA /* Post.h */,
+				38995375AB1A8525D9D4A62E /* Place.m */,
+				389958D9CD78144C504120BB /* Place.h */,
 			);
 			path = "Place>People";
 			sourceTree = "<group>";
@@ -521,7 +531,9 @@
 				389958A48A8DD8673272F92D /* LoginController.m in Sources */,
 				3899542CACB8B6428C5DFA58 /* FeedController.m in Sources */,
 				B669BC821F778CCA002EE7FC /* MapViewController.m in Sources */,
-				38995A91CCDD0E0CC45DA768 /* feedCell.m in Sources */,
+				389957A60FE75121B5F2B58C /* MainController.m in Sources */,
+				389954CEC43530AB221273D8 /* Post.m in Sources */,
+				3899561C964E6B566D1E169C /* Place.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

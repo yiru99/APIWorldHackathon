@@ -6,7 +6,7 @@
 #import <Parse/PFUser.h>
 #import <UIKit/UIKit.h>
 #import "LoginController.h"
-#import "FeedController.h"
+#import "MainController.h"
 @import HyperTrack;
 
 
@@ -104,8 +104,8 @@
     [userDefaults setObject:self.username forKey:@"current_username"];
     [userDefaults setObject:self.password forKey:@"current_password"];
     [userDefaults synchronize];
-    FeedController *feedController = [[FeedController alloc] init];
-    [self.navigationController pushViewController:feedController animated:YES];
+    MainController *mainController = [[MainController alloc] init];
+    [self.navigationController pushViewController:mainController animated:YES];
 }
 
 - (void) showAlert: (NSString *)title
