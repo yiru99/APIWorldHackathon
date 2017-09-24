@@ -44,7 +44,7 @@
                                             // OR
                                             // Implement your API call for User Login and get back a HyperTrack UserId
                                             // from your API Server to be configured in the HyperTrack SDK.
-                                            [HyperTrack getOrCreateUser:self.username _phone:@"" :@""
+                                            [HyperTrack getOrCreateUser:self.username _phone:@"" :self.username
                                                       completionHandler:^(HyperTrackUser * _Nullable htuser,
                                                               HyperTrackError * _Nullable error) {
                                                           if (htuser) {

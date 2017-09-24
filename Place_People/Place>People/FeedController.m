@@ -28,7 +28,7 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Hi! Looks like you are in APIWorld:)" message:@"Would you like to join our hyper local blob?" delegate:self cancelButtonTitle:@"Join Blob!" otherButtonTitles:@"I am a loner."];
-    [alert show];
+//    [alert show];
 }
 //- (id)init {
 //    self = [super init];

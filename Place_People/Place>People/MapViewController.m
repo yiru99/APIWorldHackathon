@@ -8,6 +8,7 @@
 
 #import "MapViewController.h"
 @import HyperTrack;
+@import CoreLocation;
 
 
 @interface MapViewController() <HTViewCustomizationDelegate, HTViewInteractionDelegate, HTEventsDelegate>
@@ -33,21 +34,21 @@
     // Configure events delegate in HyperTrack map
     [HyperTrack setEventsDelegateWithEventDelegate:self];
     
-    [HyperTrack trackActionForActionID:@"ad98b729-a11b-464c-b3fc-bc16dcedacc0" completionHandler:^(HyperTrackAction *  action , HyperTrackError * error) {
-        if (error != nil) {
-            // Handle trackActionForActionID API error here
-            NSLog(@"Error in trackOrder: %@", error.debugDescription);
-        } else {
-            // Handle trackActionForActionID API success here
-            NSLog(@"trackAction for Action ID successful");
-        }
-    }];
+//    [HyperTrack trackActionForActionID:@"24b3b8ac-bacd-4270-b72a-9cc13d02531b" completionHandler:^(HyperTrackAction *  action , HyperTrackError * error) {
+//        if (error != nil) {
+//            // Handle trackActionForActionID API error here
+//            NSLog(@"Error in trackOrder: %@", error.debugDescription);
+//        } else {
+//            // Handle trackActionForActionID API success here
+//            NSLog(@"trackAction for Action ID successful");
+//        }
+//    }];
     
     
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     NSString *username = [userDefaults stringForKey:@"current_username"];
     
-    [HyperTrack getOrCreateUser:username _phone:@"" :@""
+    [HyperTrack getOrCreateUser:username _phone:@"" :username
               completionHandler:^(HyperTrackUser * _Nullable htuser,
                                   HyperTrackError * _Nullable error) {
                   if (htuser) {
@@ -56,7 +57,10 @@
                       // so no need to call [HyperTrack setUserId:@"USER_ID"] API
                       
                       // Handle createUser API success here
-                      [HyperTrack startMockTracking];
+                      NSLog(@"%@", htuser);
+                      
+                      HTMockLocationParams *locationParams = [[HTMockLocationParams alloc] initWithDestination:CLLocationCoordinate2DMake(28.41, 77.12 )];
+                      [HyperTrack startMockTrackingWithParams:locationParams];
                   } else {
                       // Handle createUser error here, if required
                       NSLog(@"%@", error.debugDescription);
