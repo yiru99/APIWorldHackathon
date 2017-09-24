@@ -39,6 +39,10 @@
         }];
         
     }];
+    [self performSegueWithIdentifier:@"FeedView" sender:self];
 }
 
+- (IBAction)backBtn:(id)sender {
+    [self performSegueWithIdentifier:@"FeedView" sender:self];
+}
 @end
