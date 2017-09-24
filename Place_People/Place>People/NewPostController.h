@@ -12,6 +12,7 @@
 - (IBAction)backBtn:(id)sender;
 @property (strong, nonatomic) IBOutlet UITextView *postText;
 @property (strong, nonatomic) IBOutlet UIButton *postBtn;
+-(int)getRandomNumberBetween:(int)from to:(int)to;
 
 
 @end
