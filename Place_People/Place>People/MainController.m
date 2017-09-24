@@ -25,8 +25,10 @@
             User *user = [[User alloc] initWithPFObject:pfObject];
             users[user.username] = user;
         }
+        NSDictionary* userInfo = @{@"users": users};
         [[NSNotificationCenter defaultCenter] postNotificationName:@"usersDataChanged"
-                                                            object:users];
+                                                            object:self
+                                                          userInfo:userInfo];
     }];
     // TODO: calcualte the effective places as a filter
     [postQuery findObjectsInBackgroundWithBlock:^(NSArray *allPosts, NSError *error) {
@@ -34,16 +36,20 @@
             Post *post = [[Post alloc] initWithPFObject:pfObject];
             [posts addObject:post];
         }
+        NSDictionary* userInfo = @{@"posts": posts};
         [[NSNotificationCenter defaultCenter] postNotificationName:@"postsDataChanged"
-                                                            object:posts];
+                                                            object:self
+                                                          userInfo:userInfo];
     }];
     [placeQuery findObjectsInBackgroundWithBlock:^(NSArray *allPlaces, NSError *error) {
         for (PFObject *pfObject in allPlaces) {
             Place *place = [[Place alloc] initWithPFObject:pfObject];
             places[place.name] = place;
         }
+        NSDictionary* userInfo = @{@"places": places};
         [[NSNotificationCenter defaultCenter] postNotificationName:@"placesDataChanged"
-                                                            object:places];
+                                                            object:self
+                                                          userInfo:userInfo];
     }];
 
 

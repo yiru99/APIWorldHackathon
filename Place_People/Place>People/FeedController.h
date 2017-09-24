@@ -7,7 +7,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface FeedController : UIViewController <UITableViewDelegate>
+@interface FeedController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, retain) NSMutableArray *posts;
 @property (nonatomic, retain) NSMutableDictionary *users;
