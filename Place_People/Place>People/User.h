@@ -8,10 +8,10 @@
 @class PFObject;
 
 
-@interface Place : NSObject
+@interface User : NSObject
 @property (strong, nonatomic) NSString *objectId;
-@property (strong, nonatomic) NSString *geofenceLocation;
-@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *username;
+@property (strong, nonatomic) NSString *imageUrl;
 
 - (id)initWithPFObject:(PFObject *)json;
 @end

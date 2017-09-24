@@ -22,6 +22,7 @@
 		389957A60FE75121B5F2B58C /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389950E4E5B9899DC487BFCC /* MainController.m */; };
 		389958A48A8DD8673272F92D /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389953D99B6F755570BF5EDB /* LoginController.m */; };
 		389959E963E6E5C22D77AC24 /* LaunchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38995742B1177970EF2B380A /* LaunchController.m */; };
+		38995C8721196A89D55EB6D7 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 38995B9B5F55C64877347809 /* User.m */; };
 		38995D0948C88C4B3947432D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389950D7E5D7A8F65B72058A /* ViewController.m */; };
 		38995D5D9AF0F66E61309F6F /* Place_PeopleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 389956D06FDB93662EE175A0 /* Place_PeopleTests.m */; };
 		577757331F776DA4004540A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 577757321F776DA4004540A0 /* UIKit.framework */; };
@@ -62,6 +63,7 @@
 		3899531E9B5BBC9C5600EC73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38995375AB1A8525D9D4A62E /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
 		389953D99B6F755570BF5EDB /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		389953DFE26767D3139A5AA2 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		3899562F262841E399E2D267 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		389956D06FDB93662EE175A0 /* Place_PeopleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Place_PeopleTests.m; sourceTree = "<group>"; };
 		38995742B1177970EF2B380A /* LaunchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchController.m; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		389958D9CD78144C504120BB /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
 		38995A3C1A0CA5B14F6E2BFE /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		38995ABC7252FF5F01E71990 /* Place>PeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Place>PeopleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38995B9B5F55C64877347809 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		38995C14144CEEEED65F8C81 /* Place>PeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Place>PeopleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38995CBFF270168427BCB6B7 /* LaunchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchController.h; sourceTree = "<group>"; };
 		38995CFA1A5C95F060C0FADD /* Place_PeopleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Place_PeopleUITests.m; sourceTree = "<group>"; };
@@ -183,6 +186,8 @@
 				3899529224A9CD94505A38FA /* Post.h */,
 				38995375AB1A8525D9D4A62E /* Place.m */,
 				389958D9CD78144C504120BB /* Place.h */,
+				38995B9B5F55C64877347809 /* User.m */,
+				389953DFE26767D3139A5AA2 /* User.h */,
 			);
 			path = "Place>People";
 			sourceTree = "<group>";
@@ -534,6 +539,7 @@
 				389957A60FE75121B5F2B58C /* MainController.m in Sources */,
 				389954CEC43530AB221273D8 /* Post.m in Sources */,
 				3899561C964E6B566D1E169C /* Place.m in Sources */,
+				38995C8721196A89D55EB6D7 /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

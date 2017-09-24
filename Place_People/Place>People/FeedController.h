@@ -10,4 +10,6 @@
 @interface FeedController : UIViewController <UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, retain) NSMutableArray *posts;
+@property (nonatomic, retain) NSMutableDictionary *users;
+@property (nonatomic, retain) NSMutableDictionary *places;
 @end
